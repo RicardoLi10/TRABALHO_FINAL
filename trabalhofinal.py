@@ -223,7 +223,7 @@ def atualizar():
             cursor = con.cursor()
             cursor.execute(atualizacao_cliente)
             con.commit()
-            messagebox.showinfo(title='Erro', message='ATUALIZADO COM SUCESSO')
+            messagebox.showinfo(title='ATUALIZADO', message='ATUALIZADO COM SUCESSO')
 
     except:
         messagebox.showerror(title='Erro', message='Selecione algum item')
